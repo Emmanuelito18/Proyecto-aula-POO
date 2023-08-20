@@ -16,6 +16,7 @@ public class Inicio extends javax.swing.JFrame {
      */
     public Inicio() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -27,21 +28,136 @@ public class Inicio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jLabel1 = new javax.swing.JLabel();
+        regresar = new javax.swing.JButton();
+        texto1 = new javax.swing.JLabel();
+        texto2 = new javax.swing.JLabel();
+        texto3 = new javax.swing.JLabel();
+        texto4 = new javax.swing.JLabel();
+        texto4p2 = new javax.swing.JLabel();
+        texto3p2 = new javax.swing.JLabel();
+        texto5 = new javax.swing.JLabel();
+        texto5p2 = new javax.swing.JLabel();
+        texto6 = new javax.swing.JLabel();
+        texto8 = new javax.swing.JLabel();
+        texto7 = new javax.swing.JLabel();
+        texto6p2 = new javax.swing.JLabel();
+        texto7p2 = new javax.swing.JLabel();
+        imagen = new javax.swing.JLabel();
+        Charizard = new javax.swing.JLabel();
+        Fondo = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBounds(new java.awt.Rectangle(0, 0, 800, 532));
+        setMinimumSize(new java.awt.Dimension(800, 532));
+        setPreferredSize(new java.awt.Dimension(800, 532));
+        setResizable(false);
+        getContentPane().setLayout(null);
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jLabel1.setText("Definición");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(300, 10, 160, 50);
+
+        regresar.setText("Regresar");
+        regresar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                regresarActionPerformed(evt);
+            }
+        });
+        getContentPane().add(regresar);
+        regresar.setBounds(680, 440, 100, 40);
+
+        texto1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto1.setText("El calentamiento global es un aumento a largo plazo de la temperatura media del sistema");
+        getContentPane().add(texto1);
+        texto1.setBounds(30, 70, 720, 40);
+
+        texto2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto2.setText("climático de la Tierra.");
+        getContentPane().add(texto2);
+        texto2.setBounds(30, 100, 180, 30);
+
+        texto3.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto3.setText("Es un aspecto importante del cambio climático ");
+        getContentPane().add(texto3);
+        texto3.setBounds(30, 130, 380, 30);
+
+        texto4.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto4.setText("la medición directa de la temperatura y varios");
+        getContentPane().add(texto4);
+        texto4.setBounds(30, 160, 361, 30);
+
+        texto4p2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto4p2.setForeground(new java.awt.Color(255, 255, 255));
+        texto4p2.setText("efectos del calentamiento.");
+        getContentPane().add(texto4p2);
+        texto4p2.setBounds(400, 160, 220, 30);
+
+        texto3p2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto3p2.setForeground(new java.awt.Color(255, 255, 255));
+        texto3p2.setText("actual y puede demostrarse mediante");
+        getContentPane().add(texto3p2);
+        texto3p2.setBounds(410, 130, 310, 30);
+
+        texto5.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto5.setText("Este es un proceso a escala planetaria que co");
+        getContentPane().add(texto5);
+        texto5.setBounds(30, 210, 370, 20);
+
+        texto5p2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto5p2.setForeground(new java.awt.Color(255, 255, 255));
+        texto5p2.setText("nsiste en un aumento lento pero");
+        getContentPane().add(texto5p2);
+        texto5p2.setBounds(400, 200, 260, 40);
+
+        texto6.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto6.setText("gradual de la temperatura de la atmósfera");
+        getContentPane().add(texto6);
+        texto6.setBounds(30, 240, 340, 20);
+
+        texto8.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto8.setText("a lo largo de los años.");
+        getContentPane().add(texto8);
+        texto8.setBounds(30, 310, 180, 20);
+
+        texto7.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto7.setText("Para percibirlo hay que tomar la temperatura media ");
+        getContentPane().add(texto7);
+        texto7.setBounds(30, 280, 420, 30);
+
+        texto6p2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto6p2.setText("y el océano.");
+        getContentPane().add(texto6p2);
+        texto6p2.setBounds(370, 240, 120, 20);
+
+        texto7p2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        texto7p2.setText("global y observar la evolución");
+        getContentPane().add(texto7p2);
+        texto7p2.setBounds(440, 280, 240, 30);
+
+        imagen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Tierra.jpeg"))); // NOI18N
+        getContentPane().add(imagen);
+        imagen.setBounds(230, 320, 300, 160);
+
+        Charizard.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/charizard.png"))); // NOI18N
+        getContentPane().add(Charizard);
+        Charizard.setBounds(670, 320, 100, 110);
+
+        Fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/calentamiento1.jpg"))); // NOI18N
+        getContentPane().add(Fondo);
+        Fondo.setBounds(0, 0, 800, 520);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void regresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_regresarActionPerformed
+        // TODO add your handling code here:
+        Indice indice=new Indice();
+        indice.setVisible(true);
+        indice.setLocationRelativeTo(null);
+        this.setVisible(false);
+    }//GEN-LAST:event_regresarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -79,5 +195,23 @@ public class Inicio extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Charizard;
+    private javax.swing.JLabel Fondo;
+    private javax.swing.JLabel imagen;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton regresar;
+    private javax.swing.JLabel texto1;
+    private javax.swing.JLabel texto2;
+    private javax.swing.JLabel texto3;
+    private javax.swing.JLabel texto3p2;
+    private javax.swing.JLabel texto4;
+    private javax.swing.JLabel texto4p2;
+    private javax.swing.JLabel texto5;
+    private javax.swing.JLabel texto5p2;
+    private javax.swing.JLabel texto6;
+    private javax.swing.JLabel texto6p2;
+    private javax.swing.JLabel texto7;
+    private javax.swing.JLabel texto7p2;
+    private javax.swing.JLabel texto8;
     // End of variables declaration//GEN-END:variables
 }
